@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D1ED63B1AE92EFC00346E72 /* a.baa-happy-cat-is-happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D1ED63A1AE92EFC00346E72 /* a.baa-happy-cat-is-happy.jpg */; };
+		0DC0BFA41AED64280057E7EA /* upc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DC0BFA31AED64280057E7EA /* upc.jpg */; };
+		0DC0BFA61AED67550057E7EA /* a.baa-happy-cat-is-happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DC0BFA51AED67550057E7EA /* a.baa-happy-cat-is-happy.jpg */; };
 		C92317851785939100D77827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92317841785939100D77827 /* UIKit.framework */; };
 		C92317871785939100D77827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92317861785939100D77827 /* Foundation.framework */; };
 		C92317891785939100D77827 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92317881785939100D77827 /* CoreGraphics.framework */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D1ED63A1AE92EFC00346E72 /* a.baa-happy-cat-is-happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "a.baa-happy-cat-is-happy.jpg"; path = "../../../../../../../../Users/murphy/Downloads/a.baa-happy-cat-is-happy.jpg"; sourceTree = "<group>"; };
+		0DC0BFA31AED64280057E7EA /* upc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = upc.jpg; sourceTree = "<group>"; };
+		0DC0BFA51AED67550057E7EA /* a.baa-happy-cat-is-happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a.baa-happy-cat-is-happy.jpg"; sourceTree = "<group>"; };
 		C92317801785939100D77827 /* MethodSwizzlingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethodSwizzlingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92317841785939100D77827 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C92317861785939100D77827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,7 +91,8 @@
 		C92317751785939100D77827 = {
 			isa = PBXGroup;
 			children = (
-				0D1ED63A1AE92EFC00346E72 /* a.baa-happy-cat-is-happy.jpg */,
+				0DC0BFA51AED67550057E7EA /* a.baa-happy-cat-is-happy.jpg */,
+				0DC0BFA31AED64280057E7EA /* upc.jpg */,
 				C923178A1785939100D77827 /* MethodSwizzlingDemo */,
 				C92317AE1785939100D77827 /* MethodSwizzlingDemoTests */,
 				C92317831785939100D77827 /* Frameworks */,
@@ -234,11 +237,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC0BFA41AED64280057E7EA /* upc.jpg in Resources */,
+				0DC0BFA61AED67550057E7EA /* a.baa-happy-cat-is-happy.jpg in Resources */,
 				C923178F1785939100D77827 /* InfoPlist.strings in Resources */,
 				C92317971785939100D77827 /* Default.png in Resources */,
 				C92317991785939100D77827 /* Default@2x.png in Resources */,
 				C923179B1785939100D77827 /* Default-568h@2x.png in Resources */,
-				0D1ED63B1AE92EFC00346E72 /* a.baa-happy-cat-is-happy.jpg in Resources */,
 				C923179E1785939100D77827 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
