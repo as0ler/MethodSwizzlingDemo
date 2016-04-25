@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Prateek Gianchandani. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface MethodSwizzlingDemoTests : SenTestCase
+@interface MethodSwizzlingDemoTests : XCTestCase
 
 @end

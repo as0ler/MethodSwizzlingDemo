@@ -20,7 +20,6 @@
 		C923179B1785939100D77827 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C923179A1785939100D77827 /* Default-568h@2x.png */; };
 		C923179E1785939100D77827 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C923179C1785939100D77827 /* MainStoryboard.storyboard */; };
 		C92317A11785939100D77827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92317A01785939100D77827 /* ViewController.m */; };
-		C92317A91785939100D77827 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92317A81785939100D77827 /* SenTestingKit.framework */; };
 		C92317AA1785939100D77827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92317841785939100D77827 /* UIKit.framework */; };
 		C92317AB1785939100D77827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92317861785939100D77827 /* Foundation.framework */; };
 		C92317B31785939100D77827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92317B11785939100D77827 /* InfoPlist.strings */; };
@@ -38,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DC0BFA31AED64280057E7EA /* upc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = upc.jpg; sourceTree = "<group>"; };
-		0DC0BFA51AED67550057E7EA /* a.baa-happy-cat-is-happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a.baa-happy-cat-is-happy.jpg"; sourceTree = "<group>"; };
+		0DC0BFA31AED64280057E7EA /* upc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = upc.jpg; sourceTree = SOURCE_ROOT; };
+		0DC0BFA51AED67550057E7EA /* a.baa-happy-cat-is-happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a.baa-happy-cat-is-happy.jpg"; sourceTree = SOURCE_ROOT; };
 		C92317801785939100D77827 /* MethodSwizzlingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethodSwizzlingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92317841785939100D77827 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C92317861785939100D77827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +55,7 @@
 		C923179D1785939100D77827 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C923179F1785939100D77827 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C92317A01785939100D77827 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C92317A71785939100D77827 /* MethodSwizzlingDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodSwizzlingDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C92317A81785939100D77827 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C92317A71785939100D77827 /* MethodSwizzlingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodSwizzlingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92317B01785939100D77827 /* MethodSwizzlingDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MethodSwizzlingDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C92317B21785939100D77827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C92317B41785939100D77827 /* MethodSwizzlingDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodSwizzlingDemoTests.h; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92317A91785939100D77827 /* SenTestingKit.framework in Frameworks */,
 				C92317AA1785939100D77827 /* UIKit.framework in Frameworks */,
 				C92317AB1785939100D77827 /* Foundation.framework in Frameworks */,
 			);
@@ -104,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				C92317801785939100D77827 /* MethodSwizzlingDemo.app */,
-				C92317A71785939100D77827 /* MethodSwizzlingDemoTests.octest */,
+				C92317A71785939100D77827 /* MethodSwizzlingDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +112,6 @@
 				C92317841785939100D77827 /* UIKit.framework */,
 				C92317861785939100D77827 /* Foundation.framework */,
 				C92317881785939100D77827 /* CoreGraphics.framework */,
-				C92317A81785939100D77827 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,8 +198,8 @@
 			);
 			name = MethodSwizzlingDemoTests;
 			productName = MethodSwizzlingDemoTests;
-			productReference = C92317A71785939100D77827 /* MethodSwizzlingDemoTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
+			productReference = C92317A71785939100D77827 /* MethodSwizzlingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -211,6 +207,7 @@
 		C92317771785939100D77827 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Prateek Gianchandani";
 			};
@@ -409,13 +406,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MethodSwizzlingDemo/MethodSwizzlingDemo-Prefix.pch";
 				INFOPLIST_FILE = "MethodSwizzlingDemoTests/MethodSwizzlingDemoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -426,13 +423,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MethodSwizzlingDemo/MethodSwizzlingDemo-Prefix.pch";
 				INFOPLIST_FILE = "MethodSwizzlingDemoTests/MethodSwizzlingDemoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
